@@ -1300,4 +1300,9 @@
     <string name="miscellaneous_unlimit_screenrecord_title">Unlimit screenrecord</string>
     <string name="miscellaneous_unlimit_screenrecord_summary">Remove the 15GiB file size limit\nMay result in a larger than needed output file</string>
 
+    <!-- Application Downgrade -->
+    <string name="miscellaneous_developer_options_category">Developer options</string>
+    <string name="miscellaneous_app_downgrade_title">Allow application downgrade</string>
+    <string name="miscellaneous_app_downgrade_summary">Allow downgrading system applications, which may result in crashes and data loss</string>
+
 </resources>

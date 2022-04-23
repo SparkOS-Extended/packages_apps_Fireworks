@@ -167,6 +167,12 @@
         android:summary="@string/miscellaneous_unlimit_screenrecord_summary"
         android:defaultValue="false" />
 
+    <com.spark.settings.preferences.GlobalSettingSwitchPreference
+        android:key="pm_downgrade_allowed"
+        android:title="@string/miscellaneous_app_downgrade_title"
+        android:summary="@string/miscellaneous_app_downgrade_summary"
+        android:defaultValue="false" />
+
    </PreferenceCategory>
 
     <PreferenceCategory
