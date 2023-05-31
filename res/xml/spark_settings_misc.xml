@@ -80,6 +80,13 @@
             android:targetClass="ink.kscope.parallelspace.MainActivity" />
     </Preference>
 
+    <Preference
+    	android:key="hide_developer_status_settings"
+        android:title="@string/hide_developer_status_title"
+        android:summary="@string/hide_developer_status_summary"
+        android:fragment="com.spark.settings.fragments.HideDeveloperStatusSettings"
+        settings:controller="com.spark.settings.fragments.HideDeveloperStatusPreferenceController" />
+
    </PreferenceCategory>
 
     <PreferenceCategory

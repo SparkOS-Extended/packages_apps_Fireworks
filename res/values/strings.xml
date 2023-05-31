@@ -1309,4 +1309,8 @@
     <string name="cache_cleaner_title">Cache Cleaner</string>
     <string name="cache_cleaner_summary">Enable the cache cleaner service to automatically clear app caches.</string>
 
+    <!-- Hide developer status -->
+    <string name="hide_developer_status_title">Hide developer status</string>
+    <string name="hide_developer_status_summary">Hide developer status from apps</string>
+
 </resources>
