@@ -272,6 +272,12 @@
             android:entries="@array/brightness_slider_style_entries"
             android:entryValues="@array/brightness_slider_style_values"
             android:defaultValue="0" />
+
+        <com.spark.settings.preferences.SystemSettingSwitchPreference
+            android:key="qs_brightness_slider_haptic"
+            android:title="@string/qs_brightness_slider_haptic_title"
+            android:summary="@string/qs_brightness_slider_haptic_summary"/>
+
     </PreferenceCategory>
 
     <PreferenceCategory

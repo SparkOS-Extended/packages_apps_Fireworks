@@ -479,6 +479,11 @@ public class ThemeSettings extends DashboardFragment implements
         return controllers;
     }
 
+    public static void reset(Context mContext) {
+        ContentResolver resolver = mContext.getContentResolver();
+        Settings.System.putIntForUser(resolver,
+                Settings.System.QS_BRIGHTNESS_SLIDER_HAPTIC, 0, UserHandle.USER_CURRENT);
+    }
     /**
      * For search
      */
